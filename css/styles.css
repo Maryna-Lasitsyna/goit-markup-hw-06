@@ -546,10 +546,10 @@ img {
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-
+  outline: none;
   transition: background-color var(--transition-dur-and-fun);
 }
-.subscribe-btn:hover {
+.subscribe-btn:is(:hover, :focus) {
   background-color: #404bbf;
 }
 .subscribe-icon {
